@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "websitelive",
+  "compatibility_date": "2026-06-09",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  // Optional: Routes and environment variables
+  // "routes": [
+  //   {
+  //     "pattern": "bettergrowthsolutions.com/*",
+  //     "custom_domain": true
+  //   }
+  // ]
+  // For production deployment with custom domain, uncomment and adjust the routes section.
+}

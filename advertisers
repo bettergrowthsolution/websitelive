@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Advertisers – BetterGrowth Solutions</title>
+    <!-- ============================================================
+     META TAGS - For Advertisers | BetterGrowth Solutions
+     ============================================================ -->
+
+<!-- Primary Meta -->
+<title>For Advertisers – BetterGrowth Solutions</title>
+<meta name="description" content="Acquire quality customers at scale with BetterGrowth Solutions. Performance-based CPA, CPL, CPS, and RevShare campaigns for advertisers. Trusted publishers, compliant traffic, and dedicated support." />
+<meta name="keywords" content="advertisers, customer acquisition, lead generation, CPA campaigns, CPL campaigns, performance marketing for advertisers, media buying, scalable campaigns, compliant traffic" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://bettergrowthsolutions.com/advertisers.html" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="For Advertisers – BetterGrowth Solutions" />
+<meta property="og:description" content="Acquire quality customers at scale with BetterGrowth Solutions. Performance-based CPA, CPL, CPS, and RevShare campaigns for advertisers." />
+<meta property="og:url" content="https://bettergrowthsolutions.com/advertisers.html" />
+<meta property="og:site_name" content="BetterGrowth Solutions" />
+<meta property="og:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="For Advertisers – BetterGrowth Solutions" />
+<meta name="twitter:description" content="Acquire quality customers at scale with BetterGrowth Solutions. Performance-based CPA, CPL, CPS, and RevShare campaigns for advertisers." />
+<meta name="twitter:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+
+<!-- Geo Tags -->
+<meta name="geo.region" content="IN-MP" />
+<meta name="geo.placename" content="Indore" />
+<meta name="ICBM" content="22.7196, 75.8577" />
+
+<!-- Author / Theme -->
+<meta name="author" content="BetterGrowth Solutions" />
+<meta name="theme-color" content="#0b1a33" />
+
+<!-- Favicon -->
+<link rel="icon" href="bettergrowthsolutions.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="bettergrowthsolutions.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        :root {
+            --primary: #0b1a33;
+            --primary-light: #142b4e;
+            --primary-dark: #060f1f;
+            --accent: #e8a838;
+            --accent-hover: #d4952a;
+            --accent-glow: rgba(232, 168, 56, 0.3);
+            --blue-accent: #2b7be4;
+            --blue-accent-hover: #1a5fc7;
+            --text-light: #f0f4fc;
+            --text-muted: #b0c4e0;
+            --text-body: #1e2a3a;
+            --bg-light: #f7f9fd;
+            --bg-card: #ffffff;
+            --shadow-sm: 0 4px 20px rgba(11, 26, 51, 0.06);
+            --shadow-md: 0 12px 40px rgba(11, 26, 51, 0.10);
+            --shadow-lg: 0 24px 60px rgba(11, 26, 51, 0.14);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --max-width: 1200px;
+            --header-height: 76px;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body { font-family: var(--font); background: var(--bg-light); color: var(--text-body); line-height: 1.6; overflow-x: hidden; padding-top: var(--header-height); }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+
+        /* BUTTONS */
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 34px; border-radius: 50px; font-weight: 600; font-size: 0.95rem; border: none; cursor: pointer; transition: var(--transition); letter-spacing: 0.01em; font-family: var(--font); white-space: nowrap; }
+        .btn-primary { background: var(--accent); color: var(--primary-dark); box-shadow: 0 4px 16px var(--accent-glow); }
+        .btn-primary:hover { background: var(--accent-hover); transform: translateY(-3px); box-shadow: 0 8px 28px var(--accent-glow); }
+        .btn-secondary { background: transparent; color: var(--text-light); border: 1.5px solid rgba(255,255,255,0.25); backdrop-filter: blur(4px); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.5); transform: translateY(-3px); }
+        .btn-sm { padding: 10px 28px; font-size: 0.85rem; }
+        .btn-outline-light { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,0.3); }
+        .btn-outline-light:hover { background: rgba(255,255,255,0.08); border-color: #fff; transform: translateY(-3px); }
+
+        /* HEADER */
+        .header { position: fixed; top: 0; left: 0; width: 100%; height: var(--header-height); background: rgba(11, 26, 51, 0.92); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.06); z-index: 1000; transition: var(--transition); }
+        .header.scrolled { background: rgba(11, 26, 51, 0.97); box-shadow: 0 4px 30px rgba(0,0,0,0.3); }
+        .header .container { display: flex; align-items: center; justify-content: space-between; height: 100%; }
+
+        /* LOGO — shows the actual branded image, no invert filter */
+        .logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; cursor: pointer; }
+        .logo-img {
+            height: 48px;
+            width: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            /* No filter: show the logo's own navy background + gold/white colours */
+        }
+
+        .nav { display: flex; align-items: center; gap: 8px; }
+        .nav-list { display: flex; align-items: center; gap: 4px; }
+        .nav-list a { color: var(--text-muted); padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; transition: var(--transition); position: relative; }
+        .nav-list a:hover { color: #fff; background: rgba(255,255,255,0.07); }
+        .nav-list a.active { color: #fff; }
+        .nav-list a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 24px; height: 2.5px; background: var(--accent); border-radius: 4px; box-shadow: 0 0 12px var(--accent-glow); }
+        .nav-cta { margin-left: 12px; }
+        .nav-cta .btn { padding: 10px 28px; font-size: 0.85rem; }
+
+        .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; margin-left: 12px; }
+        .hamburger span { display: block; width: 26px; height: 2.5px; background: #fff; border-radius: 4px; transition: var(--transition); transform-origin: center; }
+        .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+        .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+        /* HERO */
+        .hero-advertisers { background: linear-gradient(145deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%); padding: 100px 0 80px; position: relative; overflow: hidden; min-height: 70vh; display: flex; align-items: center; text-align: center; }
+        .hero-advertisers::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 30% 70%, rgba(232,168,56,0.05) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(43,123,228,0.04) 0%, transparent 50%); pointer-events: none; }
+        .hero-advertisers .container { position: relative; z-index: 2; max-width: 900px; }
+        .hero-advertisers .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: rgba(232,168,56,0.12); border: 1px solid rgba(232,168,56,0.18); padding: 8px 22px; border-radius: 50px; color: var(--accent); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; margin: 0 auto 20px; backdrop-filter: blur(4px); width: fit-content; }
+        .hero-advertisers .hero-badge i { font-size: 0.7rem; }
+        .hero-advertisers h1 { font-size: clamp(2.8rem, 5vw, 4rem); font-weight: 900; line-height: 1.1; color: #fff; letter-spacing: -0.03em; }
+        .hero-advertisers h1 .highlight { background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-advertisers p { font-size: 1.2rem; color: var(--text-muted); max-width: 700px; margin: 16px auto 0; line-height: 1.7; }
+        .hero-advertisers .hero-actions { display: flex; justify-content: center; gap: 14px; margin-top: 30px; flex-wrap: wrap; }
+
+        /* SECTION HEADERS */
+        .section-header { text-align: center; max-width: 700px; margin: 0 auto 50px; }
+        .section-header .label { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); background: rgba(232,168,56,0.08); padding: 4px 18px; border-radius: 50px; margin-bottom: 12px; }
+        .section-header h2 { font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 800; color: var(--primary); letter-spacing: -0.02em; line-height: 1.15; }
+        .section-header h2 .highlight { background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .section-header p { color: var(--text-body); opacity: 0.7; font-size: 1.05rem; margin-top: 12px; line-height: 1.7; }
+
+        /* WHY ADVERTISERS */
+        .why-advertisers { padding: 80px 0; background: #fff; }
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 28px; margin-top: 20px; }
+        .benefit-card { background: var(--bg-light); padding: 32px 24px; border-radius: var(--radius); text-align: center; border: 1px solid rgba(11,26,51,0.04); transition: var(--transition); box-shadow: var(--shadow-sm); }
+        .benefit-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); border-color: var(--accent); }
+        .benefit-card .icon { width: 64px; height: 64px; background: rgba(232,168,56,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; color: var(--accent); margin: 0 auto 16px; transition: var(--transition); }
+        .benefit-card:hover .icon { background: var(--accent); color: #fff; transform: scale(1.05); }
+        .benefit-card h4 { font-size: 1.1rem; font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+        .benefit-card p { font-size: 0.95rem; color: var(--text-body); opacity: 0.75; line-height: 1.6; }
+
+        /* CAMPAIGN MODELS */
+        .campaign-models { padding: 80px 0; background: var(--bg-light); }
+        .models-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
+        .model-item { background: #fff; padding: 24px 20px; border-radius: var(--radius); text-align: center; border: 1px solid rgba(11,26,51,0.04); transition: var(--transition); box-shadow: var(--shadow-sm); }
+        .model-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--accent); }
+        .model-item .model-name { font-size: 1.3rem; font-weight: 800; color: var(--accent); }
+        .model-item .model-label { font-size: 0.85rem; color: var(--text-body); opacity: 0.7; margin-top: 4px; }
+
+        /* HOW IT WORKS */
+        .how-it-works { padding: 80px 0; background: #fff; }
+        .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; margin-top: 20px; }
+        .step-card { text-align: center; padding: 28px 20px; background: var(--bg-light); border-radius: var(--radius); border: 1px solid rgba(11,26,51,0.04); transition: var(--transition); position: relative; }
+        .step-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); border-color: var(--accent); }
+        .step-card .step-num { width: 48px; height: 48px; background: var(--accent); color: var(--primary-dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: 800; margin: 0 auto 16px; box-shadow: 0 4px 16px var(--accent-glow); }
+        .step-card h4 { font-size: 1.05rem; font-weight: 700; color: var(--primary); margin-bottom: 6px; }
+        .step-card p { font-size: 0.9rem; color: var(--text-body); opacity: 0.7; line-height: 1.6; }
+
+        /* INDUSTRIES */
+        .industries-served { padding: 80px 0; background: var(--bg-light); }
+        .industries-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-top: 20px; }
+        .industries-grid .ind-item { background: #fff; padding: 12px 28px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; color: var(--primary); border: 1px solid rgba(11,26,51,0.06); transition: var(--transition); cursor: default; box-shadow: var(--shadow-sm); }
+        .industries-grid .ind-item:hover { background: var(--accent); color: var(--primary-dark); border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 8px 24px var(--accent-glow); }
+
+        /* TESTIMONIALS */
+        .testimonials { padding: 80px 0; background: #fff; }
+        .testimonial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 20px; }
+        .testimonial-card { background: var(--bg-light); padding: 30px 24px; border-radius: var(--radius); border: 1px solid rgba(11,26,51,0.04); transition: var(--transition); }
+        .testimonial-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+        .testimonial-card .stars { color: var(--accent); font-size: 1rem; margin-bottom: 12px; }
+        .testimonial-card blockquote { font-size: 1rem; color: var(--text-body); opacity: 0.85; line-height: 1.7; font-style: italic; margin-bottom: 16px; }
+        .testimonial-card .author { display: flex; align-items: center; gap: 12px; }
+        .testimonial-card .author .avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 1.1rem; }
+        .testimonial-card .author .info h5 { font-weight: 700; color: var(--primary); font-size: 0.95rem; }
+        .testimonial-card .author .info p { font-size: 0.8rem; color: var(--text-body); opacity: 0.6; }
+
+        /* CTA */
+        .cta-section { padding: 80px 0; background: var(--primary); color: #fff; text-align: center; position: relative; overflow: hidden; }
+        .cta-section::before { content: ''; position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse, rgba(232,168,56,0.04) 0%, transparent 70%); pointer-events: none; }
+        .cta-section .container { position: relative; z-index: 2; }
+        .cta-section h2 { font-size: clamp(2rem, 3vw, 2.6rem); font-weight: 800; margin-bottom: 12px; }
+        .cta-section h2 .highlight { background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .cta-section p { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto 30px; line-height: 1.7; }
+        .cta-section .btn { font-size: 1rem; padding: 16px 40px; }
+
+        /* FOOTER */
+        .footer { background: var(--primary-dark); color: var(--text-muted); padding: 60px 0 30px; border-top: 1px solid rgba(255,255,255,0.04); }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-brand p { font-size: 0.9rem; line-height: 1.7; margin-top: 10px; max-width: 300px; opacity: 0.7; }
+        .footer-col h4 { color: #fff; font-size: 0.95rem; font-weight: 700; margin-bottom: 16px; }
+        .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+        .footer-col ul a { font-size: 0.9rem; opacity: 0.7; transition: var(--transition); }
+        .footer-col ul a:hover { opacity: 1; color: var(--accent); transform: translateX(4px); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.04); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; opacity: 0.6; }
+        .footer-socials { display: flex; gap: 14px; }
+        .footer-socials a { width: 38px; height: 38px; border-radius: 50%; background: rgba(255,255,255,0.04); display: flex; align-items: center; justify-content: center; transition: var(--transition); color: var(--text-muted); }
+        .footer-socials a:hover { background: var(--accent); color: var(--primary-dark); transform: translateY(-3px); box-shadow: 0 8px 24px var(--accent-glow); }
+
+        /* Footer logo — slightly larger to be readable on dark bg */
+        .footer-logo-img {
+            height: 52px;
+            width: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 1024px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 30px; } }
+        @media (max-width: 768px) {
+            :root { --header-height: 68px; }
+            .nav-list { position: fixed; top: var(--header-height); left: 0; width: 100%; background: rgba(11,26,51,0.98); backdrop-filter: blur(20px); flex-direction: column; padding: 24px 20px 32px; gap: 4px; transform: translateY(-120%); transition: var(--transition); border-bottom: 1px solid rgba(255,255,255,0.04); box-shadow: 0 20px 60px rgba(0,0,0,0.4); align-items: stretch; }
+            .nav-list.open { transform: translateY(0); }
+            .nav-list a { padding: 12px 16px; font-size: 1rem; text-align: center; border-radius: 8px; }
+            .nav-list a.active::after { display: none; }
+            .nav-cta { margin-left: 0; margin-top: 8px; }
+            .nav-cta .btn { width: 100%; justify-content: center; }
+            .hamburger { display: flex; }
+            .hero-advertisers { padding: 80px 0 60px; min-height: 50vh; }
+            .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            .logo-img { height: 40px; }
+            .testimonial-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 480px) {
+            .container { padding: 0 16px; }
+            .logo-img { height: 34px; }
+            .hero-advertisers h1 { font-size: 2.2rem; }
+            .hero-advertisers .hero-actions .btn { width: 100%; justify-content: center; }
+            .models-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        /* SCROLL REVEAL */
+        .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.8s cubic-bezier(0.25,0.46,0.45,0.94), transform 0.8s cubic-bezier(0.25,0.46,0.45,0.94); }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.10s; }
+        .reveal-delay-2 { transition-delay: 0.20s; }
+        .reveal-delay-3 { transition-delay: 0.30s; }
+        .reveal-delay-4 { transition-delay: 0.40s; }
+        .reveal-delay-5 { transition-delay: 0.50s; }
+
+        
+          .footer-contact-info { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+        .footer-contact-info .contact-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-muted); opacity: 0.8; transition: var(--transition); }
+        .footer-contact-info .contact-item:hover { opacity: 1; color: var(--accent); }
+        .footer-contact-info .contact-item i { width: 20px; color: var(--accent); font-size: 0.85rem; 
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <!-- Actual BetterGrowth Solutions logo image (no filter inversion) -->
+                <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="advertisers" class="active">Advertisers</a></li>
+                    <li><a href="publishers">Publishers</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="contact" class="btn btn-primary btn-sm">Become a Partner</a>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-advertisers">
+        <div class="container">
+            <div class="hero-badge">
+                <i class="fas fa-building"></i> For Advertisers
+            </div>
+            <h1>Acquire <span class="highlight">Quality Customers</span> at Scale</h1>
+            <p>Connect with trusted publishers and access high-intent traffic that converts. Our performance-based models ensure you only pay for measurable results.</p>
+            <div class="hero-actions">
+                <a href="contact" class="btn btn-primary">Start Acquiring Leads</a>
+                <a href="#benefits" class="btn btn-outline-light">Learn More <i class="fas fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY ADVERTISERS CHOOSE US -->
+    <section class="why-advertisers" id="benefits">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Why Advertisers Choose Us</span>
+                <h2>Built for <span class="highlight">Acquisition</span></h2>
+                <p>We help brands acquire high-quality customers through compliant, data-driven performance marketing.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card reveal reveal-delay-1">
+                    <div class="icon"><i class="fas fa-check-circle"></i></div>
+                    <h4>Compliant Traffic</h4>
+                    <p>All leads are verified and fully compliant with industry regulations. We prioritize quality and legitimacy.</p>
+                </div>
+                <div class="benefit-card reveal reveal-delay-2">
+                    <div class="icon"><i class="fas fa-rocket"></i></div>
+                    <h4>Scalable Campaigns</h4>
+                    <p>We scale your budget across multiple channels to maximize volume without sacrificing lead quality.</p>
+                </div>
+                <div class="benefit-card reveal reveal-delay-3">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h4>Real-Time Analytics</h4>
+                    <p>Access live dashboards to monitor performance, track KPIs, and optimize on the fly.</p>
+                </div>
+                <div class="benefit-card reveal reveal-delay-4">
+                    <div class="icon"><i class="fas fa-handshake"></i></div>
+                    <h4>Dedicated Support</h4>
+                    <p>Work with a dedicated account manager who understands your business and helps you achieve your goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAMPAIGN MODELS -->
+    <section class="campaign-models reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Flexible Pricing</span>
+                <h2>Campaign <span class="highlight">Models</span></h2>
+                <p>Choose the pricing model that works best for your business goals.</p>
+            </div>
+            <div class="models-grid">
+                <div class="model-item"><div class="model-name">CPA</div><div class="model-label">Cost Per Acquisition</div></div>
+                <div class="model-item"><div class="model-name">CPL</div><div class="model-label">Cost Per Lead</div></div>
+                <div class="model-item"><div class="model-name">CPS</div><div class="model-label">Cost Per Sale</div></div>
+                <div class="model-item"><div class="model-name">CPI</div><div class="model-label">Cost Per Install</div></div>
+                <div class="model-item"><div class="model-name">RevShare</div><div class="model-label">Revenue Share</div></div>
+                <div class="model-item"><div class="model-name">Hybrid</div><div class="model-label">Custom Combinations</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Simple Process</span>
+                <h2>How It <span class="highlight">Works</span></h2>
+                <p>Our streamlined process makes it easy to start acquiring customers.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card reveal reveal-delay-1">
+                    <div class="step-num">1</div>
+                    <h4>Share Your Goals</h4>
+                    <p>Tell us about your target audience, KPIs, and campaign objectives.</p>
+                </div>
+                <div class="step-card reveal reveal-delay-2">
+                    <div class="step-num">2</div>
+                    <h4>Get a Custom Strategy</h4>
+                    <p>We design a tailored campaign using the best channels and models for your business.</p>
+                </div>
+                <div class="step-card reveal reveal-delay-3">
+                    <div class="step-num">3</div>
+                    <h4>Launch &amp; Optimize</h4>
+                    <p>Your campaign goes live with real-time tracking and ongoing optimization.</p>
+                </div>
+                <div class="step-card reveal reveal-delay-4">
+                    <div class="step-num">4</div>
+                    <h4>Scale &amp; Grow</h4>
+                    <p>As results improve, we scale your budget and expand to new traffic sources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INDUSTRIES -->
+    <section class="industries-served reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Expertise</span>
+                <h2>Industries We <span class="highlight">Serve</span></h2>
+                <p>We have deep experience across multiple verticals, delivering results for brands like yours.</p>
+            </div>
+            <div class="industries-grid">
+                <span class="ind-item">Financial Services</span>
+                <span class="ind-item">Credit &amp; Lending</span>
+                <span class="ind-item">Insurance</span>
+                <span class="ind-item">Healthcare</span>
+                <span class="ind-item">Education</span>
+                <span class="ind-item">Home Services</span>
+                <span class="ind-item">Telecom</span>
+                <span class="ind-item">Software &amp; SaaS</span>
+                <span class="ind-item">E‑commerce</span>
+                <span class="ind-item">Utilities</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Testimonials</span>
+                <h2>What Our <span class="highlight">Advertisers</span> Say</h2>
+                <p>Real feedback from brands who have scaled with us.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card reveal reveal-delay-1">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"BetterGrowth Solutions helped us scale our lead generation by 300% in just three months. The quality of leads is exceptional."</blockquote>
+                    <div class="author">
+                        <div class="avatar">JD</div>
+                        <div class="info"><h5>John Davis</h5><p>VP of Marketing, FinTech Corp</p></div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal reveal-delay-2">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"Their dedicated account management and real-time reporting gave us full visibility. We've never had such clear ROI tracking."</blockquote>
+                    <div class="author">
+                        <div class="avatar">SM</div>
+                        <div class="info"><h5>Sarah Mitchell</h5><p>CEO, HealthDirect</p></div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal reveal-delay-3">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"We've tried other networks, but BetterGrowth delivers the best conversion rates. Their exclusive offers make all the difference."</blockquote>
+                    <div class="author">
+                        <div class="avatar">MR</div>
+                        <div class="info"><h5>Mike Reynolds</h5><p>Director of Growth, EduPro</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section reveal">
+        <div class="container">
+            <h2>Ready to <span class="highlight">Acquire</span> Quality Customers?</h2>
+            <p>Let's discuss how our performance marketing expertise can help you scale your customer acquisition.</p>
+            <a href="contact" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index" class="logo">
+                        <!-- Footer logo — full colour on dark background -->
+                        <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="footer-logo-img" />
+                    </a>
+                    <p>Performance Marketing That Delivers Results. Built for scale, rooted in partnership.</p>
+               
+                  <div class="footer-contact-info">
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Indore, Madhya Pradesh, India</span></div>
+               <!-- FOOTER   <div class="contact-item"><i class="fas fa-phone-alt"></i><span>+91 </span></div>-->
+                        <div class="contact-item"><i class="fas fa-envelope"></i><span>info@bettergrowthsolutions.com</span></div>
+                    </div>
+            </div>
+            
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                       <li><a href="index.html">Home</a></li><li><a href="about">About Us</a></li>
+                    <li><a href="services">Services</a></li><li><a href="advertisers">Advertisers</a></li>
+                    <li><a href="publishers">Publishers</a></li><li><a href="contact">Contact</a></li>
+                    <li><a href="careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services">Performance Marketing</a></li>
+                        <li><a href="services">Affiliate Programs</a></li>
+                        <li><a href="services">Lead Generation</a></li>
+                        <li><a href="services">Media Buying</a></li>
+                        <li><a href="services">Dialer Solutions</a></li>
+                        <li><a href="services">Data Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                
+                       <ul><li><a href="privacy-policy">Privacy Policy</a></li><li><a href="terms-and-conditions">Terms &amp; Conditions</a></li><li><a href="sitemap">Sitemap</a></li></ul>
+                 
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 BetterGrowth Solutions. All rights reserved.</span>
+                <div class="footer-socials">
+              <!--      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+ <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="jfzkMioBFuOj4-ye2dHm9";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+    <script>
+        (function() {
+            'use strict';
+            const hamburger = document.getElementById('hamburger');
+            const navList = document.getElementById('navList');
+            hamburger.addEventListener('click', function() {
+                this.classList.toggle('open');
+                navList.classList.toggle('open');
+            });
+            document.querySelectorAll('.nav-list a').forEach(link => {
+                link.addEventListener('click', function() {
+                    hamburger.classList.remove('open');
+                    navList.classList.remove('open');
+                });
+            });
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                header.classList.toggle('scrolled', window.pageYOffset > 30);
+            });
+            const revealElements = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+            }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
+            revealElements.forEach(el => observer.observe(el));
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+# ============================================================
+# robots.txt — BetterGrowth Solutions
+# ============================================================
+# This file controls how search engines crawl and index
+# the BetterGrowth Solutions website.
+# Last Updated: January 2026
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# ============================================================
+# ALLOWED PATHS (Everything is allowed by default)
+# ============================================================
+# All public pages are allowed to be crawled and indexed.
+
+# ============================================================
+# DISALLOWED PATHS (Block admin/private areas)
+# ============================================================
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /.git/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /staff/
+Disallow: /test/
+Disallow: /testing/
+
+# Block duplicate or unnecessary content
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/fonts/
+Disallow: /assets/images/
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.svg$
+Disallow: /*.ico$
+
+# Block from indexing files
+Disallow: /*.pdf$
+Disallow: /*.zip$
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# ============================================================
+# CRAWL DELAY (Be polite to servers)
+# ============================================================
+Crawl-delay: 5
+
+# ============================================================
+# SITEMAP LOCATION
+# ============================================================
+Sitemap: https://bettergrowthsolutions.com/sitemap.xml
+
+# ============================================================
+# SEO & CRAWL NOTES
+# ============================================================
+# This robots.txt allows full indexing of all public pages.
+# Only admin/private areas are blocked.
+# The sitemap.xml is referenced for search engines.
+# ============================================================

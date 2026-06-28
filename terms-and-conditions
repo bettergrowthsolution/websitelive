@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms &amp; Conditions – BetterGrowth Solutions</title>
+    <meta name="description" content="Read our Privacy Policy to understand how BetterGrowth Solutions collects, uses, and protects your personal information. We are committed to transparency and data security." />
+<meta name="keywords" content="privacy policy, data protection, GDPR, CCPA, information security, personal data, privacy compliance, bettergrowth solutions privacy" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://bettergrowthsolutions.com/privacy-policy.html" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Privacy Policy – BetterGrowth Solutions" />
+<meta property="og:description" content="Read our Privacy Policy to understand how BetterGrowth Solutions collects, uses, and protects your personal information. We are committed to transparency and data security." />
+<meta property="og:url" content="https://bettergrowthsolutions.com/privacy-policy.html" />
+<meta property="og:site_name" content="BetterGrowth Solutions" />
+<meta property="og:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Privacy Policy – BetterGrowth Solutions" />
+<meta name="twitter:description" content="Read our Privacy Policy to understand how BetterGrowth Solutions collects, uses, and protects your personal information." />
+<meta name="twitter:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+
+<!-- Geo Tags -->
+<meta name="geo.region" content="IN-MP" />
+<meta name="geo.placename" content="Indore" />
+<meta name="ICBM" content="22.7196, 75.8577" />
+
+<!-- Author / Theme -->
+<meta name="author" content="BetterGrowth Solutions" />
+<meta name="theme-color" content="#0b1a33" />
+
+<!-- Favicon -->
+<link rel="icon" href="bettergrowthsolutions.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="bettergrowthsolutions.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+        :root {
+            --primary: #0b1a33;
+            --primary-light: #142b4e;
+            --primary-dark: #060f1f;
+            --accent: #e8a838;
+            --accent-hover: #d4952a;
+            --accent-glow: rgba(232, 168, 56, 0.3);
+            --blue-accent: #2b7be4;
+            --text-light: #f0f4fc;
+            --text-muted: #b0c4e0;
+            --text-body: #1e2a3a;
+            --bg-light: #f7f9fd;
+            --shadow-sm: 0 4px 20px rgba(11, 26, 51, 0.06);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --max-width: 1200px;
+            --header-height: 76px;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body { font-family: var(--font); background: var(--bg-light); color: var(--text-body); line-height: 1.6; overflow-x: hidden; padding-top: var(--header-height); }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+
+        /* BUTTONS */
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 34px; border-radius: 50px; font-weight: 600; font-size: 0.95rem; border: none; cursor: pointer; transition: var(--transition); letter-spacing: 0.01em; font-family: var(--font); white-space: nowrap; }
+        .btn-primary { background: var(--accent); color: var(--primary-dark); box-shadow: 0 4px 16px var(--accent-glow); }
+        .btn-primary:hover { background: var(--accent-hover); transform: translateY(-3px); box-shadow: 0 8px 28px var(--accent-glow); }
+        .btn-sm { padding: 10px 28px; font-size: 0.85rem; }
+
+        /* HEADER */
+        .header { position: fixed; top: 0; left: 0; width: 100%; height: var(--header-height); background: rgba(11, 26, 51, 0.92); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.06); z-index: 1000; transition: var(--transition); }
+        .header.scrolled { background: rgba(11, 26, 51, 0.97); box-shadow: 0 4px 30px rgba(0,0,0,0.3); }
+        .header .container { display: flex; align-items: center; justify-content: space-between; height: 100%; }
+
+        /* LOGO — full colour, no filter */
+        .logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; cursor: pointer; }
+        .logo-img { height: 48px; width: auto; object-fit: contain; border-radius: 6px; }
+        .logo .brand-text { display: none; }
+
+        /* NAV */
+        .nav { display: flex; align-items: center; gap: 8px; }
+        .nav-list { display: flex; align-items: center; gap: 4px; }
+        .nav-list a { color: var(--text-muted); padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; transition: var(--transition); position: relative; }
+        .nav-list a:hover { color: #fff; background: rgba(255,255,255,0.07); }
+        .nav-list a.active { color: #fff; }
+        .nav-list a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 24px; height: 2.5px; background: var(--accent); border-radius: 4px; box-shadow: 0 0 12px var(--accent-glow); }
+        .nav-cta { margin-left: 12px; }
+        .nav-cta .btn { padding: 10px 28px; font-size: 0.85rem; }
+
+        /* HAMBURGER */
+        .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; margin-left: 12px; }
+        .hamburger span { display: block; width: 26px; height: 2.5px; background: #fff; border-radius: 4px; transition: var(--transition); transform-origin: center; }
+        .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+        .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+        /* HERO */
+        .hero-terms { background: linear-gradient(145deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%); padding: 100px 0 80px; position: relative; overflow: hidden; min-height: 50vh; display: flex; align-items: center; text-align: center; }
+        .hero-terms::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 30% 70%, rgba(232,168,56,0.05) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(43,123,228,0.04) 0%, transparent 50%); pointer-events: none; }
+        .hero-terms .container { position: relative; z-index: 2; max-width: 800px; }
+        .hero-terms .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: rgba(232,168,56,0.12); border: 1px solid rgba(232,168,56,0.18); padding: 8px 22px; border-radius: 50px; color: var(--accent); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; margin: 0 auto 20px; backdrop-filter: blur(4px); width: fit-content; }
+        .hero-terms h1 { font-size: clamp(2.8rem, 5vw, 4rem); font-weight: 900; line-height: 1.1; color: #fff; letter-spacing: -0.03em; }
+        .hero-terms h1 .highlight { background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-terms p { font-size: 1.2rem; color: var(--text-muted); max-width: 650px; margin: 16px auto 0; line-height: 1.7; }
+
+        /* TERMS CONTENT */
+        .terms-content { padding: 60px 0 80px; background: #fff; }
+        .terms-card { background: var(--bg-light); border-radius: var(--radius); padding: 48px 40px; border: 1px solid rgba(11,26,51,0.04); box-shadow: var(--shadow-sm); max-width: 900px; margin: 0 auto; }
+        .terms-card .effective-date { font-size: 0.9rem; color: var(--text-body); opacity: 0.6; margin-bottom: 30px; font-weight: 500; text-align: center; }
+        .terms-card .section-title { font-size: 1.4rem; font-weight: 800; color: var(--primary); margin-top: 32px; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+        .terms-card .section-title:first-of-type { margin-top: 0; }
+        .terms-card .section-title i { color: var(--accent); font-size: 1.2rem; width: 28px; text-align: center; }
+        .terms-card p { font-size: 1rem; color: var(--text-body); opacity: 0.85; line-height: 1.8; margin-bottom: 16px; }
+        .terms-card ul { list-style: none; padding: 0; margin: 8px 0 16px 0; }
+        .terms-card ul li { font-size: 0.95rem; color: var(--text-body); opacity: 0.8; line-height: 1.7; padding: 4px 0 4px 28px; position: relative; }
+        .terms-card ul li::before { content: ''; position: absolute; left: 4px; top: 13px; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; opacity: 0.5; }
+        .terms-card .highlight-box { background: rgba(232,168,56,0.06); border-left: 4px solid var(--accent); padding: 20px 24px; border-radius: var(--radius-sm); margin: 20px 0; }
+        .terms-card .highlight-box strong { color: var(--primary); }
+        .terms-card .highlight-box.age-box { border-left-color: #ef4444; background: rgba(239,68,68,0.05); }
+        .terms-card .highlight-box.age-box strong { color: #dc2626; }
+        .terms-card .highlight-box.jurisdiction-box { border-left-color: var(--blue-accent); background: rgba(43,123,228,0.05); }
+        .terms-card .highlight-box.jurisdiction-box strong { color: var(--blue-accent); }
+
+        /* FOOTER */
+        .footer { background: var(--primary-dark); color: var(--text-muted); padding: 60px 0 30px; border-top: 1px solid rgba(255,255,255,0.04); }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-brand .logo-img { height: 48px; margin-bottom: 12px; }
+        .footer-brand p { font-size: 0.9rem; line-height: 1.7; margin-top: 6px; max-width: 300px; opacity: 0.7; }
+        .footer-contact-info { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+        .footer-contact-info .contact-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-muted); opacity: 0.8; transition: var(--transition); }
+        .footer-contact-info .contact-item:hover { opacity: 1; color: var(--accent); }
+        .footer-contact-info .contact-item i { width: 20px; color: var(--accent); font-size: 0.85rem; }
+        .footer-col h4 { color: #fff; font-size: 0.95rem; font-weight: 700; margin-bottom: 16px; }
+        .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+        .footer-col ul a { font-size: 0.9rem; opacity: 0.7; transition: var(--transition); }
+        .footer-col ul a:hover { opacity: 1; color: var(--accent); transform: translateX(4px); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.04); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; opacity: 0.6; }
+        .footer-socials { display: flex; gap: 14px; }
+        .footer-socials a { width: 38px; height: 38px; border-radius: 50%; background: rgba(255,255,255,0.04); display: flex; align-items: center; justify-content: center; transition: var(--transition); color: var(--text-muted); }
+        .footer-socials a:hover { background: var(--accent); color: var(--primary-dark); transform: translateY(-3px); box-shadow: 0 8px 24px var(--accent-glow); }
+
+        /* RESPONSIVE */
+        @media (max-width: 1024px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+            .terms-card { padding: 32px 24px; }
+        }
+        @media (max-width: 768px) {
+            :root { --header-height: 68px; }
+            .nav-list { position: fixed; top: var(--header-height); left: 0; width: 100%; background: rgba(11,26,51,0.98); backdrop-filter: blur(20px); flex-direction: column; padding: 24px 20px 32px; gap: 4px; transform: translateY(-120%); transition: var(--transition); border-bottom: 1px solid rgba(255,255,255,0.04); box-shadow: 0 20px 60px rgba(0,0,0,0.4); align-items: stretch; }
+            .nav-list.open { transform: translateY(0); }
+            .nav-list a { padding: 12px 16px; font-size: 1rem; text-align: center; border-radius: 8px; }
+            .nav-list a.active::after { display: none; }
+            .nav-cta { margin-left: 0; margin-top: 8px; }
+            .nav-cta .btn { width: 100%; justify-content: center; }
+            .hamburger { display: flex; }
+            .hero-terms { padding: 80px 0 60px; min-height: 40vh; }
+            .terms-card .section-title { font-size: 1.2rem; }
+            .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            .logo-img { height: 40px; }
+        }
+        @media (max-width: 480px) {
+            .container { padding: 0 16px; }
+            .logo-img { height: 34px; }
+            .hero-terms h1 { font-size: 2.2rem; }
+            .terms-card { padding: 24px 16px; }
+            .terms-card ul li { padding-left: 20px; }
+        }
+
+        /* SCROLL REVEAL */
+        .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.10s; }
+        .reveal-delay-2 { transition-delay: 0.20s; }
+        .reveal-delay-3 { transition-delay: 0.30s; }
+        .reveal-delay-4 { transition-delay: 0.40s; }
+        .reveal-delay-5 { transition-delay: 0.50s; }
+    </style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />
+                <span class="brand-text"></span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="advertisers">Advertisers</a></li>
+                    <li><a href="publishers">Publishers</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="contact" class="btn btn-primary btn-sm">Become a Partner</a>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-terms">
+        <div class="container">
+            <div class="hero-badge">
+                <i class="fas fa-file-contract"></i> Legal
+            </div>
+            <h1>Terms &amp; <span class="highlight">Conditions</span></h1>
+            <p>Please read these Terms &amp; Conditions carefully before using our website and services. By using our platform, you agree to be bound by these terms.</p>
+        </div>
+    </section>
+
+    <section class="terms-content reveal">
+        <div class="container">
+            <div class="terms-card">
+                <div class="effective-date">
+                    <i class="fas fa-calendar-alt" style="margin-right:8px;color:var(--accent);"></i>
+                    Effective Date: January 1, 2026
+                </div>
+
+                <div class="section-title"><i class="fas fa-check-circle"></i> 1. Acceptance of Terms</div>
+                <p>By accessing or using the BetterGrowth Solutions website ("Site") and any associated services, applications, or platforms (collectively, "Services"), you agree to comply with and be legally bound by these Terms &amp; Conditions ("Terms"). If you do not agree to these Terms, you must not use our Site or Services.</p>
+                <p>We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Site after any changes constitutes your acceptance of the updated Terms. Please review this page periodically for changes.</p>
+
+                <div class="section-title"><i class="fas fa-cogs"></i> 2. Description of Services</div>
+                <p>BetterGrowth Solutions provides performance marketing services, including but not limited to:</p>
+                <ul>
+                    <li>Affiliate marketing and publisher network management</li>
+                    <li>Lead generation and customer acquisition campaigns</li>
+                    <li>Media buying across multiple digital channels</li>
+                    <li>Cloud-based dialer solutions and call center infrastructure</li>
+                    <li>Data solutions and audience targeting</li>
+                    <li>Campaign optimization and real-time analytics</li>
+                </ul>
+                <p>We reserve the right to modify, suspend, or discontinue any part of our Services at any time without liability.</p>
+
+                <div class="section-title"><i class="fas fa-user-shield"></i> 3. User Obligations</div>
+                <p>By using our Services, you agree to:</p>
+                <ul>
+                    <li>Provide accurate, complete, and up-to-date information when registering or contacting us.</li>
+                    <li>Use our Services in compliance with all applicable laws, regulations, and industry standards.</li>
+                    <li>Not engage in any fraudulent, deceptive, or harmful activity.</li>
+                    <li>Not attempt to interfere with the security or functionality of our Site or Services.</li>
+                    <li>Not use our Services to transmit viruses, malware, or any harmful code.</li>
+                    <li>Respect the intellectual property rights of BetterGrowth Solutions and third parties.</li>
+                </ul>
+
+                <div class="section-title"><i class="fas fa-copyright"></i> 4. Intellectual Property</div>
+                <p>All content, materials, logos, trademarks, and intellectual property displayed on this Site are the exclusive property of BetterGrowth Solutions or its licensors. You may not reproduce, distribute, modify, or create derivative works from any content without our prior written consent.</p>
+                <p>You retain ownership of any content you submit to us, but by submitting content, you grant us a worldwide, royalty-free, non-exclusive license to use, reproduce, and distribute that content in connection with our Services.</p>
+
+                <div class="section-title"><i class="fas fa-credit-card"></i> 5. Payment &amp; Fees</div>
+                <p>Advertisers, publishers, and partners agree to pay all fees associated with their use of our Services in accordance with the applicable pricing models (e.g., CPA, CPL, CPS, RevShare). All fees are non-refundable unless otherwise agreed in writing.</p>
+                <p>We reserve the right to change our fee structure at any time with reasonable notice. You are responsible for all taxes, duties, and levies associated with your use of our Services.</p>
+
+                <div class="section-title"><i class="fas fa-exclamation-triangle"></i> 6. Limitation of Liability</div>
+                <p>To the fullest extent permitted by law, BetterGrowth Solutions and its affiliates, officers, directors, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our Services.</p>
+                <p>Our total liability for any claim arising under these Terms shall not exceed the amount you paid to us, if any, during the twelve (12) months preceding the claim.</p>
+
+                <div class="section-title"><i class="fas fa-shield-alt"></i> 7. Disclaimer of Warranties</div>
+                <p>Our Services are provided "as is" and "as available" without warranties of any kind, whether express or implied. We do not warrant that our Services will be uninterrupted, error-free, or free of viruses or other harmful components.</p>
+                <p>We make no representations or guarantees regarding the accuracy, reliability, or completeness of any content or results obtained through our Services.</p>
+
+                <div class="section-title"><i class="fas fa-ban"></i> 8. Termination</div>
+                <p>We reserve the right to suspend or terminate your access to our Services at any time, with or without cause, with or without notice. Grounds for termination may include, but are not limited to, violation of these Terms, fraudulent activity, or non-payment of fees.</p>
+                <p>Upon termination, all rights and licenses granted to you under these Terms will cease, and you must immediately stop using our Services.</p>
+
+                <div class="section-title"><i class="fas fa-user-graduate"></i> 9. Age Restriction (18+)</div>
+                <div class="highlight-box age-box">
+                    <p><strong>⚠️ You must be at least 18 years old to use our website and services.</strong></p>
+                    <p style="margin-bottom:0;">By using our Services, you represent and warrant that you are at least 18 years of age. We do not knowingly allow minors to use our Services. If we discover that a person under 18 has provided us with personal information, we will promptly delete that information.</p>
+                </div>
+
+                <div class="section-title"><i class="fas fa-gavel"></i> 10. Indemnification</div>
+                <p>You agree to indemnify, defend, and hold harmless BetterGrowth Solutions and its affiliates, officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, and expenses arising out of or in connection with:</p>
+                <ul>
+                    <li>Your use of our Services</li>
+                    <li>Your violation of these Terms</li>
+                    <li>Your violation of any applicable law or regulation</li>
+                    <li>Your infringement of any third-party rights</li>
+                </ul>
+
+                <div class="section-title"><i class="fas fa-balance-scale"></i> 11. Governing Law &amp; Jurisdiction</div>
+                <div class="highlight-box jurisdiction-box">
+                    <p><strong>These Terms shall be governed by and construed in accordance with the laws of India.</strong></p>
+                    <p style="margin-bottom:0;">Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the <strong>High Court of Madhya Pradesh, Indore Bench</strong>, India. By using our Services, you irrevocably consent to the exclusive jurisdiction of these courts for any legal proceedings.</p>
+                </div>
+                <p>This clause applies to users from both India and the United States, as well as all other jurisdictions. You waive any objection to jurisdiction or venue in the courts specified above.</p>
+
+                <div class="section-title"><i class="fas fa-lock"></i> 12. Privacy Policy</div>
+                <p>Your use of our Services is also governed by our <a href="privacy-policy" style="color:var(--accent);font-weight:600;text-decoration:underline;">Privacy Policy</a>, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand how we collect, use, and protect your personal information.</p>
+
+                <div class="section-title"><i class="fas fa-file-signature"></i> 13. Entire Agreement</div>
+                <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and BetterGrowth Solutions regarding your use of our Services and supersede all prior agreements, understandings, or communications, whether written or oral.</p>
+
+                <div class="section-title"><i class="fas fa-cut"></i> 14. Severability</div>
+                <p>If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions shall continue in full force and effect. The invalid provision shall be replaced with a valid provision that most closely reflects the original intent.</p>
+
+                <div class="section-title"><i class="fas fa-phone-alt"></i> 15. Contact Us</div>
+                <p>If you have any questions, concerns, or requests regarding these Terms &amp; Conditions, please contact us at:</p>
+                <div style="background:var(--bg-light);padding:16px 20px;border-radius:var(--radius-sm);border:1px solid rgba(11,26,51,0.06);">
+                    <p style="margin-bottom:4px;"><strong>BetterGrowth Solutions</strong></p>
+                    <p style="margin-bottom:4px;"><i class="fas fa-map-marker-alt" style="color:var(--accent);width:20px;"></i> Indore, Madhya Pradesh, India</p>
+                    <p style="margin-bottom:4px;"><i class="fas fa-envelope" style="color:var(--accent);width:20px;"></i> info@bettergrowthsolutions.com</p>
+               <!--     <p style="margin-bottom:0;"><i class="fas fa-phone-alt" style="color:var(--accent);width:20px;"></i> +91 </p>
+               --> </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />
+                    </a>
+                    <p>Performance Marketing That Delivers Results. Built for scale, rooted in partnership.</p>
+                    <div class="footer-contact-info">
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Indore, Madhya Pradesh, India</span></div>
+                        <div class="contact-item"><i class="fas fa-phone-alt"></i><span>+91 9754007756</span></div>
+                        <div class="contact-item"><i class="fas fa-envelope"></i><span>info@bettergrowthsolutions.com</span></div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="advertisers">Advertisers</a></li>
+                        <li><a href="publishers">Publishers</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services">Performance Marketing</a></li>
+                        <li><a href="services">Affiliate Programs</a></li>
+                        <li><a href="services">Lead Generation</a></li>
+                        <li><a href="services">Media Buying</a></li>
+                        <li><a href="services">Dialer Solutions</a></li>
+                        <li><a href="services">Data Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions" style="color:var(--accent);">Terms &amp; Conditions</a></li>
+                    <li><a href="sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 BetterGrowth Solutions. All rights reserved.</span>
+                <div class="footer-socials">
+                 <!--   <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+               --> </div>
+            </div>
+        </div>
+    </footer>
+ <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="jfzkMioBFuOj4-ye2dHm9";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+    <script>
+        (function() {
+            'use strict';
+            const hamburger = document.getElementById('hamburger');
+            const navList = document.getElementById('navList');
+            hamburger.addEventListener('click', function() {
+                this.classList.toggle('open');
+                navList.classList.toggle('open');
+            });
+            document.querySelectorAll('.nav-list a').forEach(link => {
+                link.addEventListener('click', function() {
+                    hamburger.classList.remove('open');
+                    navList.classList.remove('open');
+                });
+            });
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                header.classList.toggle('scrolled', window.pageYOffset > 30);
+            });
+            const revealElements = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+            }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
+            revealElements.forEach(el => observer.observe(el));
+        })();
+    </script>
+</body>
+</html>

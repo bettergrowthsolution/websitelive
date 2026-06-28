@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us – BetterGrowth Solutions</title>
+    
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+    <!-- ============================================================
+     META TAGS - About Us | BetterGrowth Solutions
+     ============================================================ -->
+
+<!-- Primary Meta -->
+<title>About Us – BetterGrowth Solutions</title>
+<meta name="description" content="Learn about BetterGrowth Solutions – our mission, values, and experienced team of performance marketing experts dedicated to driving measurable growth for advertisers and publishers." />
+<meta name="keywords" content="about bettergrowth solutions, performance marketing agency, lead generation experts, affiliate marketing team, media buying agency, digital marketing company" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://bettergrowthsolutions.com/about" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="About Us – BetterGrowth Solutions" />
+<meta property="og:description" content="Learn about BetterGrowth Solutions – our mission, values, and experienced team of performance marketing experts." />
+<meta property="og:url" content="https://bettergrowthsolutions.com/about" />
+<meta property="og:site_name" content="BetterGrowth Solutions" />
+<meta property="og:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="About Us – BetterGrowth Solutions" />
+<meta name="twitter:description" content="Learn about BetterGrowth Solutions – our mission, values, and experienced team of performance marketing experts." />
+<meta name="twitter:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+
+<!-- Geo Tags -->
+<meta name="geo.region" content="IN-MP" />
+<meta name="geo.placename" content="Indore" />
+<meta name="ICBM" content="22.7196, 75.8577" />
+
+<!-- Author / Theme -->
+<meta name="author" content="BetterGrowth Solutions" />
+<meta name="theme-color" content="#0b1a33" />
+
+<!-- Favicon -->
+<link rel="icon" href="bettergrowthsolutions.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="bettergrowthsolutions.jpg" />
+    <style>
+        /* ============================================================
+           CSS VARIABLES & RESET – same as home page
+           ============================================================ */
+        :root {
+            --primary: #0b1a33;
+            --primary-light: #142b4e;
+            --primary-dark: #060f1f;
+            --accent: #e8a838;
+            --accent-hover: #d4952a;
+            --accent-glow: rgba(232, 168, 56, 0.3);
+            --blue-accent: #2b7be4;
+            --blue-accent-hover: #1a5fc7;
+            --text-light: #f0f4fc;
+            --text-muted: #b0c4e0;
+            --text-body: #1e2a3a;
+            --bg-light: #f7f9fd;
+            --bg-card: #ffffff;
+            --shadow-sm: 0 4px 20px rgba(11, 26, 51, 0.06);
+            --shadow-md: 0 12px 40px rgba(11, 26, 51, 0.10);
+            --shadow-lg: 0 24px 60px rgba(11, 26, 51, 0.14);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --max-width: 1200px;
+            --header-height: 76px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg-light);
+            color: var(--text-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-top: var(--header-height);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        ul {
+            list-style: none;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ============================================================
+           BUTTONS
+           ============================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 34px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            letter-spacing: 0.01em;
+            font-family: var(--font);
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--primary-dark);
+            box-shadow: 0 4px 16px var(--accent-glow);
+        }
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 28px var(--accent-glow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-light);
+            border: 1.5px solid rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(4px);
+        }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-3px);
+        }
+
+        .btn-sm {
+            padding: 10px 28px;
+            font-size: 0.85rem;
+        }
+
+        /* ============================================================
+           HEADER / NAVBAR
+           ============================================================ */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--header-height);
+            background: rgba(11, 26, 51, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        .header.scrolled {
+            background: rgba(11, 26, 51, 0.97);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            font-size: 1.35rem;
+            color: #fff;
+            letter-spacing: -0.02em;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        .logo-img {
+            height: 42px;
+            width: auto;
+            object-fit: contain;
+            border-radius: 6px;
+        }
+
+        .logo .brand-text {
+            display: flex;
+            gap: 0;
+        }
+        .logo .brand-text .better {
+            color: #fff;
+        }
+        .logo .brand-text .solutions {
+            color: var(--accent);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-list {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .nav-list a {
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-list a:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.07);
+        }
+
+        .nav-list a.active {
+            color: #fff;
+        }
+        .nav-list a.active::after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 24px;
+            height: 2.5px;
+            background: var(--accent);
+            border-radius: 4px;
+            box-shadow: 0 0 12px var(--accent-glow);
+        }
+
+        .nav-cta {
+            margin-left: 12px;
+        }
+        .nav-cta .btn {
+            padding: 10px 28px;
+            font-size: 0.85rem;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 6px;
+            margin-left: 12px;
+        }
+        .hamburger span {
+            display: block;
+            width: 26px;
+            height: 2.5px;
+            background: #fff;
+            border-radius: 4px;
+            transition: var(--transition);
+            transform-origin: center;
+        }
+        .hamburger.open span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.open span:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+        .hamburger.open span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* ============================================================
+           HERO – ABOUT
+           ============================================================ */
+        .hero-about {
+            background: linear-gradient(145deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+            padding: 100px 0 80px;
+            position: relative;
+            overflow: hidden;
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-about::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle at 30% 70%, rgba(232, 168, 56, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 70% 30%, rgba(43, 123, 228, 0.04) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-about .container {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        .hero-about .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(232, 168, 56, 0.12);
+            border: 1px solid rgba(232, 168, 56, 0.18);
+            padding: 8px 22px;
+            border-radius: 50px;
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            margin: 0 auto 20px;
+            backdrop-filter: blur(4px);
+            width: fit-content;
+        }
+        .hero-about .hero-badge i {
+            font-size: 0.7rem;
+        }
+
+        .hero-about h1 {
+            font-size: clamp(2.8rem, 5vw, 4rem);
+            font-weight: 900;
+            line-height: 1.1;
+            color: #fff;
+            letter-spacing: -0.03em;
+        }
+
+        .hero-about h1 .highlight {
+            background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-about p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 650px;
+            margin: 16px auto 0;
+            line-height: 1.7;
+        }
+
+        /* ============================================================
+           SECTION HEADERS
+           ============================================================ */
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header .label {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--accent);
+            background: rgba(232, 168, 56, 0.08);
+            padding: 4px 18px;
+            border-radius: 50px;
+            margin-bottom: 12px;
+        }
+
+        .section-header h2 {
+            font-size: clamp(2rem, 3.5vw, 2.8rem);
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+        }
+
+        .section-header h2 .highlight {
+            background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-header p {
+            color: var(--text-body);
+            opacity: 0.7;
+            font-size: 1.05rem;
+            margin-top: 12px;
+            line-height: 1.7;
+        }
+
+        /* ============================================================
+           MISSION / VALUES
+           ============================================================ */
+        .mission-section {
+            padding: 80px 0;
+            background: #fff;
+        }
+
+        .mission-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .mission-text h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+        .mission-text p {
+            font-size: 1.05rem;
+            color: var(--text-body);
+            opacity: 0.8;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .mission-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .mission-stats .stat-box {
+            background: var(--bg-light);
+            padding: 24px 16px;
+            border-radius: var(--radius);
+            text-align: center;
+            border: 1px solid rgba(11, 26, 51, 0.04);
+            transition: var(--transition);
+        }
+        .mission-stats .stat-box:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-sm);
+            border-color: var(--accent);
+        }
+        .mission-stats .stat-box .number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--accent);
+        }
+        .mission-stats .stat-box .label {
+            font-size: 0.9rem;
+            color: var(--text-body);
+            opacity: 0.7;
+            margin-top: 4px;
+        }
+
+        /* ============================================================
+           VALUES LIST
+           ============================================================ */
+        .values-section {
+            padding: 80px 0;
+            background: var(--bg-light);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .value-card {
+            background: #fff;
+            padding: 32px 24px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border-left: 4px solid var(--accent);
+            transition: var(--transition);
+        }
+        .value-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-md);
+        }
+        .value-card .icon {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+        .value-card h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 6px;
+        }
+        .value-card p {
+            font-size: 0.95rem;
+            color: var(--text-body);
+            opacity: 0.7;
+            line-height: 1.6;
+        }
+
+        /* ============================================================
+           TEAM SECTION
+           ============================================================ */
+        .team-section {
+            padding: 80px 0;
+            background: #fff;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .team-card {
+            background: var(--bg-light);
+            padding: 30px 20px;
+            border-radius: var(--radius);
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(11, 26, 51, 0.04);
+            transition: var(--transition);
+        }
+        .team-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent);
+        }
+        .team-card .avatar {
+            width: 80px;
+            height: 80px;
+            background: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #fff;
+            margin: 0 auto 16px;
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+        .team-card h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .team-card p {
+            font-size: 0.9rem;
+            color: var(--text-body);
+            opacity: 0.7;
+        }
+
+        /* ============================================================
+           CTA SECTION (before footer)
+           ============================================================ */
+        .cta-section {
+            padding: 80px 0;
+            background: var(--primary);
+            color: #fff;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 60%;
+            height: 200%;
+            background: radial-gradient(ellipse, rgba(232, 168, 56, 0.04) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .cta-section .container {
+            position: relative;
+            z-index: 2;
+        }
+        .cta-section h2 {
+            font-size: clamp(2rem, 3vw, 2.6rem);
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+        .cta-section h2 .highlight {
+            background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .cta-section p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            line-height: 1.7;
+        }
+        .cta-section .btn {
+            font-size: 1rem;
+            padding: 16px 40px;
+        }
+
+        /* ============================================================
+           FOOTER
+           ============================================================ */
+        .footer {
+            background: var(--primary-dark);
+            color: var(--text-muted);
+            padding: 60px 0 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand .logo-img {
+            height: 40px;
+            margin-bottom: 12px;
+            filter: brightness(0) invert(1);
+        }
+        .footer-brand p {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin-top: 6px;
+            max-width: 300px;
+            opacity: 0.7;
+        }
+
+        .footer-col h4 {
+            color: #fff;
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .footer-col ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer-col ul a {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            transition: var(--transition);
+        }
+
+        .footer-col ul a:hover {
+            opacity: 1;
+            color: var(--accent);
+            transform: translateX(4px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 0.85rem;
+            opacity: 0.6;
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 14px;
+        }
+
+        .footer-socials a {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.04);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            color: var(--text-muted);
+        }
+
+        .footer-socials a:hover {
+            background: var(--accent);
+            color: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+
+        /* ============================================================
+           RESPONSIVE
+           ============================================================ */
+        @media (max-width: 1024px) {
+            .mission-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --header-height: 68px;
+            }
+
+            .nav-list {
+                position: fixed;
+                top: var(--header-height);
+                left: 0;
+                width: 100%;
+                background: rgba(11, 26, 51, 0.98);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                padding: 24px 20px 32px;
+                gap: 4px;
+                transform: translateY(-120%);
+                transition: var(--transition);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+                box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+                align-items: stretch;
+            }
+
+            .nav-list.open {
+                transform: translateY(0);
+            }
+
+            .nav-list a {
+                padding: 12px 16px;
+                font-size: 1rem;
+                text-align: center;
+                border-radius: 8px;
+            }
+
+            .nav-list a.active::after {
+                display: none;
+            }
+
+            .nav-cta {
+                margin-left: 0;
+                margin-top: 8px;
+            }
+            .nav-cta .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hero-about {
+                padding: 80px 0 60px;
+                min-height: 50vh;
+            }
+
+            .mission-stats {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+            .logo-img {
+                height: 34px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .mission-stats {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 0 16px;
+            }
+            .logo {
+                font-size: 1.1rem;
+            }
+            .logo-img {
+                height: 30px;
+            }
+            .hero-about h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        /* ============================================================
+           SCROLL REVEAL
+           ============================================================ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-delay-1 {
+            transition-delay: 0.10s;
+        }
+        .reveal-delay-2 {
+            transition-delay: 0.20s;
+        }
+        .reveal-delay-3 {
+            transition-delay: 0.30s;
+        }
+        .reveal-delay-4 {
+            transition-delay: 0.40s;
+        }
+        .reveal-delay-5 {
+            transition-delay: 0.50s;
+        }
+
+
+          .footer-contact-info { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+        .footer-contact-info .contact-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-muted); opacity: 0.8; transition: var(--transition); }
+        .footer-contact-info .contact-item:hover { opacity: 1; color: var(--accent); }
+        .footer-contact-info .contact-item i { width: 20px; color: var(--accent); font-size: 0.85rem; 
+
+    </style>
+</head>
+<body>
+
+    <!-- ============================================================
+    HEADER
+    ============================================================ -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />
+              
+                   
+                </span>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about" class="active">About Us</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="advertisers">Advertisers</a></li>
+                    <li><a href="publishers">Publishers</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="contact" class="btn btn-primary btn-sm">Become a Partner</a>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================================
+    HERO – ABOUT
+    ============================================================ -->
+    <section class="hero-about">
+        <div class="container">
+            <div class="hero-badge">
+                <i class="fas fa-users"></i> About Us
+            </div>
+            <h1>Driving Growth Through <span class="highlight">Performance</span></h1>
+            <p>We are a team of performance marketing experts dedicated to driving measurable growth. With over a decade of combined experience, we bridge the gap between advertisers and publishers.</p>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    MISSION & STATS
+    ============================================================ -->
+    <section class="mission-section reveal">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-text">
+                    <h3>Our Mission</h3>
+                    <p>
+                        To empower businesses with transparent, data-driven performance marketing solutions that deliver predictable, scalable revenue.
+                    </p>
+                    <p>
+                        We believe in partnership over transaction. Our success is measured by your ROI, and we go the extra mile to ensure every campaign exceeds expectations.
+                    </p>
+                    <p>
+                        With a focus on compliance, innovation, and real-time optimization, we've helped hundreds of brands turn marketing spend into sustainable growth.
+                    </p>
+                </div>
+                <div class="mission-stats">
+                    <div class="stat-box">
+                        <div class="number">50+</div>
+                        <div class="label">Active Geos</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="number">200+</div>
+                        <div class="label">Trusted Partners</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="number">15+</div>
+                        <div class="label">Industries Served</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    VALUES
+    ============================================================ -->
+    <section class="values-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Our Core Values</span>
+                <h2>What <span class="highlight">Drives</span> Us</h2>
+                <p>These principles guide every decision we make and every campaign we run.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card reveal reveal-delay-1">
+                    <div class="icon">🔍</div>
+                    <h4>Transparency</h4>
+                    <p>Real-time reporting and clear communication on every campaign. No hidden fees, no surprises.</p>
+                </div>
+                <div class="value-card reveal reveal-delay-2">
+                    <div class="icon">🤝</div>
+                    <h4>Partnership</h4>
+                    <p>We grow with you. Our success is measured by your ROI, and we're committed to long-term relationships.</p>
+                </div>
+                <div class="value-card reveal reveal-delay-3">
+                    <div class="icon">⚡</div>
+                    <h4>Innovation</h4>
+                    <p>Constantly evolving strategies, leveraging the latest technology and data to stay ahead of the curve.</p>
+                </div>
+                <div class="value-card reveal reveal-delay-4">
+                    <div class="icon">📈</div>
+                    <h4>Results</h4>
+                    <p>Obsessed with delivering quality leads and high conversion rates. We're driven by measurable outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    TEAM
+    ============================================================ -->
+    <section class="team-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Leadership</span>
+                <h2>Meet the <span class="highlight">Team</span></h2>
+                <p>Experienced professionals dedicated to your growth.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card reveal reveal-delay-1">
+                    <div class="avatar"><i class="fas fa-user"></i></div>
+                    <h4>Alex Rivera</h4>
+                    <p>CEO &amp; Co-Founder</p>
+                </div>
+                <div class="team-card reveal reveal-delay-2">
+                    <div class="avatar"><i class="fas fa-user"></i></div>
+                    <h4>Sarah Chen</h4>
+                    <p>Head of Partnerships</p>
+                </div>
+                <div class="team-card reveal reveal-delay-3">
+                    <div class="avatar"><i class="fas fa-user"></i></div>
+                    <h4>Mike Johnson</h4>
+                    <p>Director of Media Buying</p>
+                </div>
+                <div class="team-card reveal reveal-delay-4">
+                    <div class="avatar"><i class="fas fa-user"></i></div>
+                    <h4>Emily Davis</h4>
+                    <p>VP of Operations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    CTA SECTION
+    ============================================================ -->
+    <section class="cta-section reveal">
+        <div class="container">
+            <h2>Ready to <span class="highlight">Grow</span> Together?</h2>
+            <p>Let's discuss how our performance marketing expertise can help you acquire quality customers at scale.</p>
+            <a href="contact" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+              <!----     <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />  -->
+                    <p>Performance Marketing That Delivers Results. Built for scale, rooted in partnership.</p>
+                    <p> Indore, Madhya Pradesh, India</p>
+                    <p>info@bettergrowthsolutions.com</p>
+                </div>
+              
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="advertisers">Advertisers</a></li>
+                        <li><a href="publishers">Publishers</a></li>
+                        <li><a href="contact">Contact</a></li>
+                          <li><a href="careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services">Performance Marketing</a></li>
+                        <li><a href="services">Affiliate Programs</a></li>
+                        <li><a href="services">Lead Generation</a></li>
+                        <li><a href="services">Media Buying</a></li>
+                        <li><a href="services">Dialer Solutions</a></li>
+                        <li><a href="services">Data Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions">Terms &amp; Conditions</a></li>
+                         <li><a href="sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 BetterGrowth Solutions. All rights reserved.</span>
+                <div class="footer-socials">
+                 <!----   <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>   -->
+                </div>
+            </div>
+        </div>
+    </footer>
+ <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="jfzkMioBFuOj4-ye2dHm9";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+    <!-- ============================================================
+    JAVASCRIPT
+    ============================================================ -->
+    <script>
+        (function() {
+            'use strict';
+
+            // Hamburger
+            const hamburger = document.getElementById('hamburger');
+            const navList = document.getElementById('navList');
+
+            hamburger.addEventListener('click', function() {
+                this.classList.toggle('open');
+                navList.classList.toggle('open');
+            });
+
+            document.querySelectorAll('.nav-list a').forEach(link => {
+                link.addEventListener('click', function() {
+                    hamburger.classList.remove('open');
+                    navList.classList.remove('open');
+                });
+            });
+
+            // Header scroll
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 30) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Scroll Reveal
+            const revealElements = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
+            revealElements.forEach(el => observer.observe(el));
+
+        })();
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sitemap – BetterGrowth Solutions</title>
+    <meta name="description" content="Explore the BetterGrowth Solutions sitemap. Find all pages including Home, About Us, Services, Advertisers, Publishers, Careers, Contact, Privacy Policy, and Terms & Conditions." />
+<meta name="keywords" content="sitemap, website map, site map, bettergrowth solutions sitemap, all pages, website navigation" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://bettergrowthsolutions.com/sitemap" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sitemap – BetterGrowth Solutions" />
+<meta property="og:description" content="Explore the BetterGrowth Solutions sitemap. Find all pages including Home, About Us, Services, Advertisers, Publishers, Careers, Contact, Privacy Policy, and Terms & Conditions." />
+<meta property="og:url" content="https://bettergrowthsolutions.com/sitemap" />
+<meta property="og:site_name" content="BetterGrowth Solutions" />
+<meta property="og:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Sitemap – BetterGrowth Solutions" />
+<meta name="twitter:description" content="Explore the BetterGrowth Solutions sitemap. Find all pages including Home, About Us, Services, Advertisers, Publishers, Careers, Contact, Privacy Policy, and Terms & Conditions." />
+<meta name="twitter:image" content="https://bettergrowthsolutions.com/og-image.jpg" />
+
+<!-- Geo Tags -->
+<meta name="geo.region" content="IN-MP" />
+<meta name="geo.placename" content="Indore" />
+<meta name="ICBM" content="22.7196, 75.8577" />
+
+<!-- Author / Theme -->
+<meta name="author" content="BetterGrowth Solutions" />
+<meta name="theme-color" content="#0b1a33" />
+
+<!-- Favicon -->
+<link rel="icon" href="bettergrowthsolutions.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" href="bettergrowthsolutions.jpg" />
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        :root {
+            --primary: #0b1a33;
+            --primary-light: #142b4e;
+            --primary-dark: #060f1f;
+            --accent: #e8a838;
+            --accent-hover: #d4952a;
+            --accent-glow: rgba(232, 168, 56, 0.3);
+            --blue-accent: #2b7be4;
+            --blue-accent-hover: #1a5fc7;
+            --text-light: #f0f4fc;
+            --text-muted: #b0c4e0;
+            --text-body: #1e2a3a;
+            --bg-light: #f7f9fd;
+            --bg-card: #ffffff;
+            --shadow-sm: 0 4px 20px rgba(11, 26, 51, 0.06);
+            --shadow-md: 0 12px 40px rgba(11, 26, 51, 0.10);
+            --shadow-lg: 0 24px 60px rgba(11, 26, 51, 0.14);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --max-width: 1200px;
+            --header-height: 76px;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body { font-family: var(--font); background: var(--bg-light); color: var(--text-body); line-height: 1.6; overflow-x: hidden; padding-top: var(--header-height); }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 34px; border-radius: 50px; font-weight: 600; font-size: 0.95rem; border: none; cursor: pointer; transition: var(--transition); letter-spacing: 0.01em; font-family: var(--font); white-space: nowrap; }
+        .btn-primary { background: var(--accent); color: var(--primary-dark); box-shadow: 0 4px 16px var(--accent-glow); }
+        .btn-primary:hover { background: var(--accent-hover); transform: translateY(-3px); box-shadow: 0 8px 28px var(--accent-glow); }
+        .btn-sm { padding: 10px 28px; font-size: 0.85rem; }
+
+        .header { position: fixed; top: 0; left: 0; width: 100%; height: var(--header-height); background: rgba(11, 26, 51, 0.92); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255, 255, 255, 0.06); z-index: 1000; transition: var(--transition); }
+        .header.scrolled { background: rgba(11, 26, 51, 0.97); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); }
+        .header .container { display: flex; align-items: center; justify-content: space-between; height: 100%; }
+
+        .logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; cursor: pointer; }
+        .logo-img {
+            height: 48px;
+            width: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            /* NO invert filter – logo already has correct colours */
+        }
+        .logo .brand-text { display: none; /* hide text since logo image contains the full brand name */ }
+
+        .nav { display: flex; align-items: center; gap: 8px; }
+        .nav-list { display: flex; align-items: center; gap: 4px; }
+        .nav-list a { color: var(--text-muted); padding: 8px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; transition: var(--transition); position: relative; }
+        .nav-list a:hover { color: #fff; background: rgba(255, 255, 255, 0.07); }
+        .nav-list a.active { color: #fff; }
+        .nav-list a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 24px; height: 2.5px; background: var(--accent); border-radius: 4px; box-shadow: 0 0 12px var(--accent-glow); }
+        .nav-cta { margin-left: 12px; }
+        .nav-cta .btn { padding: 10px 28px; font-size: 0.85rem; }
+
+        .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; margin-left: 12px; }
+        .hamburger span { display: block; width: 26px; height: 2.5px; background: #fff; border-radius: 4px; transition: var(--transition); transform-origin: center; }
+        .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+        .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+        .hero-sitemap { background: linear-gradient(145deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%); padding: 100px 0 80px; position: relative; overflow: hidden; min-height: 45vh; display: flex; align-items: center; text-align: center; }
+        .hero-sitemap::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 30% 70%, rgba(232, 168, 56, 0.05) 0%, transparent 50%), radial-gradient(circle at 70% 30%, rgba(43, 123, 228, 0.04) 0%, transparent 50%); pointer-events: none; }
+        .hero-sitemap .container { position: relative; z-index: 2; max-width: 800px; }
+        .hero-sitemap .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: rgba(232, 168, 56, 0.12); border: 1px solid rgba(232, 168, 56, 0.18); padding: 8px 22px; border-radius: 50px; color: var(--accent); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; margin: 0 auto 20px; backdrop-filter: blur(4px); width: fit-content; }
+        .hero-sitemap .hero-badge i { font-size: 0.7rem; }
+        .hero-sitemap h1 { font-size: clamp(2.8rem, 5vw, 4rem); font-weight: 900; line-height: 1.1; color: #fff; letter-spacing: -0.03em; }
+        .hero-sitemap h1 .highlight { background: linear-gradient(135deg, var(--accent) 0%, #f5c542 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-sitemap p { font-size: 1.2rem; color: var(--text-muted); max-width: 650px; margin: 16px auto 0; line-height: 1.7; }
+
+        .sitemap-content { padding: 60px 0 80px; background: #fff; }
+        .sitemap-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; max-width: 1000px; margin: 0 auto; }
+        .sitemap-column { background: var(--bg-light); border-radius: var(--radius); padding: 32px 28px; border: 1px solid rgba(11, 26, 51, 0.04); box-shadow: var(--shadow-sm); transition: var(--transition); }
+        .sitemap-column:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+        .sitemap-column .col-header { display: flex; align-items: center; gap: 12px; padding-bottom: 16px; border-bottom: 2px solid rgba(232, 168, 56, 0.2); margin-bottom: 16px; }
+        .sitemap-column .col-header i { font-size: 1.4rem; color: var(--accent); width: 32px; text-align: center; }
+        .sitemap-column .col-header h3 { font-size: 1.1rem; font-weight: 700; color: var(--primary); }
+        .sitemap-column ul { display: flex; flex-direction: column; gap: 6px; }
+        .sitemap-column ul li a { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: var(--radius-sm); font-size: 0.95rem; color: var(--text-body); opacity: 0.8; transition: var(--transition); }
+        .sitemap-column ul li a:hover { background: rgba(232, 168, 56, 0.08); color: var(--primary); opacity: 1; transform: translateX(4px); }
+        .sitemap-column ul li a i { font-size: 0.7rem; color: var(--accent); width: 16px; text-align: center; }
+        .sitemap-column ul li a .page-label { font-weight: 500; }
+        .sitemap-column ul li a .page-desc { font-size: 0.7rem; opacity: 0.5; margin-left: 4px; }
+        .sitemap-column ul li ul.sub-links { margin-left: 28px; margin-top: 2px; gap: 2px; }
+        .sitemap-column ul li ul.sub-links li a { font-size: 0.85rem; padding: 4px 12px; opacity: 0.6; }
+        .sitemap-column ul li ul.sub-links li a:hover { opacity: 1; }
+        .sitemap-column ul li ul.sub-links li a i { font-size: 0.5rem; color: var(--text-muted); }
+        .badge-new { font-size: 0.55rem; text-transform: uppercase; font-weight: 700; background: var(--accent); color: var(--primary-dark); padding: 2px 8px; border-radius: 20px; margin-left: 8px; letter-spacing: 0.05em; }
+
+        .sitemap-stats { padding: 40px 0 60px; background: var(--bg-light); }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto; text-align: center; }
+        .stat-item { background: #fff; padding: 24px 16px; border-radius: var(--radius); border: 1px solid rgba(11, 26, 51, 0.04); box-shadow: var(--shadow-sm); transition: var(--transition); }
+        .stat-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+        .stat-item .number { font-size: 2.2rem; font-weight: 800; color: var(--accent); }
+        .stat-item .label { font-size: 0.85rem; color: var(--text-body); opacity: 0.6; margin-top: 4px; }
+
+        .footer { background: var(--primary-dark); color: var(--text-muted); padding: 60px 0 30px; border-top: 1px solid rgba(255, 255, 255, 0.04); }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-brand .logo-img { height: 48px; margin-bottom: 12px; /* NO invert – logo already correct */ }
+        .footer-brand .logo .brand-text { display: none; }
+        .footer-brand p { font-size: 0.9rem; line-height: 1.7; margin-top: 6px; max-width: 300px; opacity: 0.7; }
+        .footer-contact-info { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+        .footer-contact-info .contact-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-muted); opacity: 0.8; transition: var(--transition); }
+        .footer-contact-info .contact-item:hover { opacity: 1; color: var(--accent); }
+        .footer-contact-info .contact-item i { width: 20px; color: var(--accent); font-size: 0.85rem; }
+        .footer-col h4 { color: #fff; font-size: 0.95rem; font-weight: 700; margin-bottom: 16px; }
+        .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
+        .footer-col ul a { font-size: 0.9rem; opacity: 0.7; transition: var(--transition); }
+        .footer-col ul a:hover { opacity: 1; color: var(--accent); transform: translateX(4px); }
+        .footer-bottom { border-top: 1px solid rgba(255, 255, 255, 0.04); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; opacity: 0.6; }
+        .footer-socials { display: flex; gap: 14px; }
+        .footer-socials a { width: 38px; height: 38px; border-radius: 50%; background: rgba(255, 255, 255, 0.04); display: flex; align-items: center; justify-content: center; transition: var(--transition); color: var(--text-muted); }
+        .footer-socials a:hover { background: var(--accent); color: var(--primary-dark); transform: translateY(-3px); box-shadow: 0 8px 24px var(--accent-glow); }
+
+        @media (max-width: 1024px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+            .sitemap-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 768px) {
+            :root { --header-height: 68px; }
+            .nav-list { position: fixed; top: var(--header-height); left: 0; width: 100%; background: rgba(11, 26, 51, 0.98); backdrop-filter: blur(20px); flex-direction: column; padding: 24px 20px 32px; gap: 4px; transform: translateY(-120%); transition: var(--transition); border-bottom: 1px solid rgba(255, 255, 255, 0.04); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); align-items: stretch; }
+            .nav-list.open { transform: translateY(0); }
+            .nav-list a { padding: 12px 16px; font-size: 1rem; text-align: center; border-radius: 8px; }
+            .nav-list a.active::after { display: none; }
+            .nav-cta { margin-left: 0; margin-top: 8px; }
+            .nav-cta .btn { width: 100%; justify-content: center; }
+            .hamburger { display: flex; }
+            .hero-sitemap { padding: 80px 0 60px; min-height: 35vh; }
+            .sitemap-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            .logo-img { height: 38px; }
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 480px) {
+            .container { padding: 0 16px; }
+            .logo-img { height: 32px; }
+            .hero-sitemap h1 { font-size: 2.2rem; }
+            .sitemap-column { padding: 24px 16px; }
+            .stats-grid { grid-template-columns: 1fr; }
+        }
+
+        .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.10s; }
+        .reveal-delay-2 { transition-delay: 0.20s; }
+        .reveal-delay-3 { transition-delay: 0.30s; }
+    </style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <!-- Updated: using bettergrowthsolutions.png, no invert filter -->
+                <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="advertisers">Advertisers</a></li>
+                    <li><a href="publishers">Publishers</a></li>
+                    <li><a href="careers">Careers</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li class="nav-cta">
+                        <a href="contact" class="btn btn-primary btn-sm">Become a Partner</a>
+                    </li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-sitemap">
+        <div class="container">
+            <div class="hero-badge">
+                <i class="fas fa-sitemap"></i> Site Map
+            </div>
+            <h1>Explore Our <span class="highlight">Website</span></h1>
+            <p>Use this sitemap to quickly find what you're looking for. Browse through our main sections, services, and legal pages.</p>
+        </div>
+    </section>
+
+    <section class="sitemap-stats reveal">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="number">9</div>
+                    <div class="label">Total Pages</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">6</div>
+                    <div class="label">Services</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">12</div>
+                    <div class="label">Industries</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">50+</div>
+                    <div class="label">Countries Served</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sitemap-content reveal">
+        <div class="container">
+            <div class="sitemap-grid">
+
+                <div class="sitemap-column reveal reveal-delay-1">
+                    <div class="col-header">
+                        <i class="fas fa-home"></i>
+                        <h3>Main Pages</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Home</span>
+                                <span class="page-desc">– Welcome to BetterGrowth Solutions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">About Us</span>
+                                <span class="page-desc">– Our mission &amp; team</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Services</span>
+                                <span class="page-desc">– What we offer</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="advertisers">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Advertisers</span>
+                                <span class="page-desc">– For brands &amp; businesses</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="publishers">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Publishers</span>
+                                <span class="page-desc">– For affiliates &amp; traffic partners</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="careers">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Careers</span>
+                                <span class="page-desc">– Join our team</span>
+                                <span class="badge-new">New</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Contact</span>
+                                <span class="page-desc">– Get in touch</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-column reveal reveal-delay-2">
+                    <div class="col-header">
+                        <i class="fas fa-gavel"></i>
+                        <h3>Legal</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="privacy-policy">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Privacy Policy</span>
+                                <span class="page-desc">– How we protect your data</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms-and-conditions">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Terms &amp; Conditions</span>
+                                <span class="page-desc">– Rules of use</span>
+                            </a>
+                        </li>
+                        <li style="margin-top:8px;">
+                            <a href="sitemap" style="background:rgba(232,168,56,0.08);border-radius:var(--radius-sm);">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label" style="color:var(--accent);font-weight:700;">Sitemap</span>
+                                <span class="page-desc">– You are here</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(11,26,51,0.06);">
+                        <div style="display:flex;align-items:center;gap:10px;font-size:0.8rem;color:var(--text-body);opacity:0.6;">
+                            <i class="fas fa-shield-alt" style="color:var(--accent);"></i>
+                            <span>All legal pages comply with Indian &amp; US regulations</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:10px;font-size:0.8rem;color:var(--text-body);opacity:0.6;margin-top:4px;">
+                            <i class="fas fa-balance-scale" style="color:var(--accent);"></i>
+                            <span>Jurisdiction: High Court of MP, Indore Bench</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sitemap-column reveal reveal-delay-3">
+                    <div class="col-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Services</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Performance Marketing</span>
+                                <span class="page-desc">– CPA, CPL, CPS, RevShare</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Affiliate Programs</span>
+                                <span class="page-desc">– Exclusive offers, high payouts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Lead Generation</span>
+                                <span class="page-desc">– Verified, high-intent leads</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Dialer Solutions</span>
+                                <span class="page-desc">– Cloud-based, SIP integration</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Media Buying</span>
+                                <span class="page-desc">– Omnichannel campaigns</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services">
+                                <i class="fas fa-chevron-right"></i>
+                                <span class="page-label">Data Solutions</span>
+                                <span class="page-desc">– Targeted audiences, enrichment</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(11,26,51,0.06);">
+                        <div style="font-size:0.8rem;font-weight:600;color:var(--primary);margin-bottom:8px;">
+                            <i class="fas fa-tags" style="color:var(--accent);margin-right:8px;"></i>Industries Served
+                        </div>
+                        <div style="display:flex;flex-wrap:wrap;gap:6px;">
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Financial</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Insurance</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Healthcare</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Education</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Telecom</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">E-commerce</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">SaaS</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Home Services</span>
+                            <span style="background:rgba(11,26,51,0.04);padding:2px 12px;border-radius:20px;font-size:0.7rem;">Utilities</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="max-width:1000px;margin:40px auto 0;text-align:center;padding:24px 20px;background:var(--bg-light);border-radius:var(--radius);border:1px solid rgba(11,26,51,0.04);">
+                <p style="font-size:0.9rem;color:var(--text-body);opacity:0.6;">
+                    <i class="fas fa-info-circle" style="color:var(--accent);margin-right:8px;"></i>
+                    This sitemap includes all publicly accessible pages on the BetterGrowth Solutions website.
+                    Total pages: <strong style="color:var(--primary);">9</strong> &bull; Last updated: January 2026
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <!-- Updated: using bettergrowthsolutions.png, no invert filter -->
+                        <img src="bettergrowthsolutions.jpg" alt="BetterGrowth Solutions Logo" class="logo-img" />
+                    </a>
+                    <p>Performance Marketing That Delivers Results. Built for scale, rooted in partnership.</p>
+                    <div class="footer-contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Indore, Madhya Pradesh, India</span>
+                        </div>
+                      
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@bettergrowthsolutions.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hr@bettergrowthsolutions.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="advertisers">Advertisers</a></li>
+                        <li><a href="publishers">Publishers</a></li>
+                        <li><a href="careers">Careers</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services">Performance Marketing</a></li>
+                        <li><a href="services">Affiliate Programs</a></li>
+                        <li><a href="services">Lead Generation</a></li>
+                        <li><a href="services">Media Buying</a></li>
+                        <li><a href="services">Dialer Solutions</a></li>
+                        <li><a href="services">Data Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions">Terms &amp; Conditions</a></li>
+                        <li><a href="sitemap" style="color:var(--accent);">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 BetterGrowth Solutions. All rights reserved.</span>
+                <div class="footer-socials">
+                  <!--  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+ <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="jfzkMioBFuOj4-ye2dHm9";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+    <script>
+        (function() {
+            'use strict';
+            const hamburger = document.getElementById('hamburger');
+            const navList = document.getElementById('navList');
+            hamburger.addEventListener('click', function() {
+                this.classList.toggle('open');
+                navList.classList.toggle('open');
+            });
+            document.querySelectorAll('.nav-list a').forEach(link => {
+                link.addEventListener('click', function() {
+                    hamburger.classList.remove('open');
+                    navList.classList.remove('open');
+                });
+            });
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                header.classList.toggle('scrolled', window.pageYOffset > 30);
+            });
+            const revealElements = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+            }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
+            revealElements.forEach(el => observer.observe(el));
+        })();
+    </script>
+
+</body>
+</html>

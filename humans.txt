@@ -1,0 +1,51 @@
+/* ============================================================
+   humans.txt — BetterGrowth Solutions
+   ============================================================ */
+
+/* TEAM */
+   Team: BetterGrowth Solutions
+   Website: https://bettergrowthsolutions.com
+   Founded: 2020
+
+/* CONTACT */
+   Email: info@bettergrowthsolutions.com
+   HR Email: hr@bettergrowthsolutions.com
+ 
+
+
+/* TECHNOLOGY */
+   Frontend: HTML5, CSS3, JavaScript (Vanilla)
+   Fonts: Google Fonts (Inter)
+   Icons: Font Awesome 6
+   Hosting: Cloud-based / VPS
+   Security: SSL Encrypted, GDPR/CCPA Compliant
+
+/* TOOLS & SERVICES */
+
+   Analytics: Google Analytics
+   Version Control: Git / GitHub
+   Design: Custom UI/UX
+
+/* STANDARDS */
+   Compliance: GDPR (EU), CCPA (USA), IT Act 2000 (India)
+   Age Restriction: 18+
+   Jurisdiction: High Court of Madhya Pradesh, Indore Bench
+
+/* SITE STRUCTURE */
+   Pages:
+   - Home (index.html)
+   - About Us (about)
+   - Services (services)
+   - Advertisers (advertisers)
+   - Publishers (publishers)
+   - Careers (careers)
+   - Contact (contact)
+   - Privacy Policy (privacy-policy)
+   - Terms & Conditions (terms-and-conditions)
+   - Sitemap (sitemap)
+
+/* LAST UPDATED */
+   Date: January 2026
+
+/* THANK YOU */
+   Thanks for visiting BetterGrowth Solutions.
