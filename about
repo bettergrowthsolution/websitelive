@@ -991,7 +991,7 @@
 
     <!-- ============================================================
     TEAM
-    ============================================================ -->
+    ============================================================ 
     <section class="team-section reveal">
         <div class="container">
             <div class="section-header">
@@ -1012,7 +1012,7 @@
                 </div>
                 <div class="team-card reveal reveal-delay-3">
                     <div class="avatar"><i class="fas fa-user"></i></div>
-                    <h4>Mike Johnson</h4>
+                    <h4>Mike Ram</h4>
                     <p>Director of Media Buying</p>
                 </div>
                 <div class="team-card reveal reveal-delay-4">
@@ -1023,7 +1023,7 @@
             </div>
         </div>
     </section>
-
+-->
     <!-- ============================================================
     CTA SECTION
     ============================================================ -->
