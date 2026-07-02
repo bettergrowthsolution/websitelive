@@ -302,8 +302,8 @@
                 <div class="detail">
                           <i ></i>
                         <div class="info">
-                      <!--    <span class="label">Phone</span>
-                            <span class="value">+91 </span>  -->
+                       <span class="label">Phone</span>
+                            <span class="value">+91 92443 30496 </span>  
                         </div>
                     </div>
                     <div class="detail">
@@ -418,9 +418,10 @@
                 <div class="location-details">
                     <h3>Visit Our Office</h3>
                     <p>We're headquartered in Indore, Madhya Pradesh — the commercial heart of central India. While we serve clients globally, our team is always ready to welcome you at our office.</p>
-                    <div class="detail-item"><i class="fas fa-map-pin"></i><span class="text">Indore, Madhya Pradesh, India</span></div>
-               <!--  <div class="detail-item"><i class="fas fa-phone-alt"></i><span class="text">+91 </span></div>    --> 
+                    
+              <div class="detail-item"><i class="fas fa-phone-alt"></i><span class="text">+91 92443 30496</span></div>    
                     <div class="detail-item"><i class="fas fa-envelope"></i><span class="text">info@bettergrowthsolutions.com</span></div>
+<div class="detail-item"><i class="fas fa-map-pin"></i><span class="text">Indore, Madhya Pradesh, India</span></div>
                     <div class="detail-item"><i class="fas fa-globe-asia"></i><span class="text">Available remotely worldwide</span></div>
                 </div>
             </div>
@@ -450,9 +451,11 @@
                     </a>
                     <p>Performance Marketing That Delivers Results. Built for scale, rooted in partnership.</p>
                     <div class="footer-contact-info">
-                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Indore, Madhya Pradesh, India</span></div>
-                     <!--   <div class="contact-item"><i class="fas fa-phone-alt"></i><span>+91 </span></div> -->
+                        
+                  
                         <div class="contact-item"><i class="fas fa-envelope"></i><span>info@bettergrowthsolutions.com</span></div>
+  <div class="contact-item"><i class="fas fa-phone-alt"></i><span>+91 92443 30496 </span></div> 
+<div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Indore, Madhya Pradesh, India</span></div>
                     </div>
                 </div>
                 <div class="footer-col">
