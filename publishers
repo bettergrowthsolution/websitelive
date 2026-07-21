@@ -446,13 +446,15 @@
                 </div>
             </div>
             <div class="footer-bottom">
-<span>
-    &copy; 2026 BetterGrowth Solutions. All rights reserved. |
-    Designed & Developed by
+ <span>
+   
+   
     <a href="https://rajvardhansingh.in/" target="_blank" rel="noopener noreferrer">
-        Rajvardhan Singh 
+          &copy; 2026 BetterGrowth Solutions. All rights reserved.
     </a>
-</span>                <div class="footer-socials">
+</span>
+            
+<div class="footer-socials">
                     <a href="https://www.linkedin.com/company/bettergrowth-solutions/"
        target="_blank"
        rel="noopener noreferrer"
