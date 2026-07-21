@@ -8,6 +8,8 @@
 <meta name="keywords" content="sitemap, website map, site map, bettergrowth solutions sitemap, all pages, website navigation" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://bettergrowthsolutions.com/sitemap" />
+<meta property="og:url" content="https://bettergrowthsolutions.com">
+<meta property="og:type" content="website">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
@@ -509,15 +511,48 @@
             <div class="footer-bottom">
                 <span>&copy; 2026 BetterGrowth Solutions. All rights reserved.</span>
                 <div class="footer-socials">
-                  <!--  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>-->
-                </div>
+                   <a href="https://www.linkedin.com/company/bettergrowth-solutions/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="BetterGrowth Solutions on LinkedIn"
+       title="Follow BetterGrowth Solutions on LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://www.instagram.com/bettergrowthsolutions/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="BetterGrowth Solutions on Instagram"
+       title="Follow BetterGrowth Solutions on Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://x.com/BGSindore"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="BetterGrowth Solutions on X"
+       title="Follow BetterGrowth Solutions on X">
+        <i class="fab fa-x-twitter"></i>
+    </a>  </div>
             </div>
         </div>
     </footer>
  <script>
 (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="jfzkMioBFuOj4-ye2dHm9";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BetterGrowth Solutions",
+  "url": "https://bettergrowthsolutions.com",
+  "logo": "https://bettergrowthsolutions.com/logo.png",
+  "sameAs": [
+    "https://www.linkedin.com/company/bettergrowth-solutions/",
+    "https://www.instagram.com/bettergrowthsolutions/",
+    "https://x.com/BGSindore"
+  ]
+}
 </script>
     <script>
         (function() {
