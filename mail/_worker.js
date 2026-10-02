@@ -1,20 +1,24 @@
 // _worker.js
-const RESEND_API_KEY = "re_9y8yV7NN_4cdW8PddY7rp3Qb8nBuQczM2";       // env var recommended
-const SUPABASE_URL   = "https://girizcgcxciyayssbmgl.supabase.co";
-const SUPABASE_KEY   = "sb_publishable_7V6_ob3cVDRr0uyYCdlSKA_8kNiKKCl";         // service role key
-const FROM_EMAIL     = "HR <hr@bettergrowthsolutions.com>";
+export async function onRequest(context) {
+  const { request, env } = context;
 
-const sb = (path, opts = {}) =>
-  fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
-    ...opts,
-    headers: {
-      apikey: SUPABASE_KEY,
-      Authorization: `Bearer ${SUPABASE_KEY}`,
-      "Content-Type": "application/json",
-      Prefer: "return=representation",
-      ...(opts.headers || {}),
-    },
-  });
+  const RESEND_API_KEY = env.RESEND_API_KEY;
+  const SUPABASE_URL   = env.SUPABASE_URL;
+  const SUPABASE_KEY   = env.SUPABASE_KEY;
+  const FROM_EMAIL     = env.FROM_EMAIL || "HR <hr@bettergrowthsolutions.com>";
+
+  const sb = (path, opts = {}) =>
+    fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+      ...opts,
+      headers: {
+        apikey: SUPABASE_KEY,
+        Authorization: `Bearer ${SUPABASE_KEY}`,
+        "Content-Type": "application/json",
+        Prefer: "return=representation",
+        ...(opts.headers || {}),
+      },
+    });
+
 
 export async function onRequest(context) {
   const { request } = context;
