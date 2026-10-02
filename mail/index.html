@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>BetterGrowth · Mail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    body{font-family:system-ui;background:#0f172a;color:#e2e8f0;display:flex;
+         align-items:center;justify-content:center;min-height:100vh;margin:0}
+    .card{background:#1e293b;padding:2rem;border-radius:14px;width:360px;
+          box-shadow:0 10px 30px rgba(0,0,0,.4)}
+    h1{margin:0 0 1rem;font-size:1.3rem}
+    input,button{width:100%;padding:.7rem;margin:.4rem 0;border-radius:8px;
+                 border:1px solid #334155;background:#0f172a;color:#e2e8f0;box-sizing:border-box}
+    button{background:#3b82f6;border:none;cursor:pointer;font-weight:600}
+    button:hover{background:#2563eb}
+    .row{display:flex;gap:.5rem;margin-top:1rem}
+    .row a{flex:1;text-align:center;padding:.6rem;border-radius:8px;
+           background:#334155;color:#e2e8f0;text-decoration:none;font-size:.9rem}
+    .summary{margin-top:1.2rem;padding:.8rem;background:#0f172a;border-radius:8px;
+             font-size:.85rem;line-height:1.5;display:none}
+    .summary b{color:#60a5fa}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>BetterGrowth Mail</h1>
+
+    <!-- LOGIN -->
+    <div id="loginBox">
+      <input id="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <!-- AFTER LOGIN -->
+    <div id="appBox" style="display:none">
+      <p>Logged in as <b id="userEmail"></b></p>
+      <div class="row">
+        <a href="send.html">✉️ Send Email</a>
+        <a href="sent.html">📬 Sent</a>
+      </div>
+
+      <div class="summary" id="summary"></div>
+      <button style="margin-top:1rem;background:#475569" onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+<script>
+  const $ = id => document.getElementById(id);
+
+  async function login() {
+    const r = await fetch("/api/login", {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({ email: $("email").value, password: $("password").value })
+    });
+    if (!r.ok) return alert("Invalid login");
+    localStorage.setItem("user", $("email").value);
+    showApp();
+  }
+
+  function logout() {
+    localStorage.removeItem("user");
+    location.reload();
+  }
+
+  async function showApp() {
+    $("loginBox").style.display = "none";
+    $("appBox").style.display = "block";
+    $("userEmail").textContent = localStorage.getItem("user");
+
+    // Load last email summary
+    const r = await fetch("/api/last");
+    const last = await r.json();
+    const box = $("summary");
+    box.style.display = "block";
+    box.innerHTML = last
+      ? `<b>Last email sent</b><br>
+         To: ${last.to_email}<br>
+         Subject: ${last.subject}<br>
+         Status: ${last.status}<br>
+         Time: ${new Date(last.created_at).toLocaleString()}`
+      : "No emails sent yet.";
+  }
+
+  if (localStorage.getItem("user")) showApp();
+</script>
+</body>
+</html>
