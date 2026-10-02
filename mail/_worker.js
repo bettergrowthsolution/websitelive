@@ -1,5 +1,5 @@
 // _worker.js
-const RESEND_API_KEY = "re_MmfjnXdx_GVxHxG6kQ85kVYvJs5B28bmE";       // env var recommended
+const RESEND_API_KEY = "re_9y8yV7NN_4cdW8PddY7rp3Qb8nBuQczM2";       // env var recommended
 const SUPABASE_URL   = "https://girizcgcxciyayssbmgl.supabase.co";
 const SUPABASE_KEY   = "sb_publishable_7V6_ob3cVDRr0uyYCdlSKA_8kNiKKCl";         // service role key
 const FROM_EMAIL     = "HR <hr@bettergrowthsolutions.com>";
